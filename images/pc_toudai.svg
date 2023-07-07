@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222.04 722.94">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+        stroke-width: .92px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #f2f2f2;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="_ヘッダー" data-name="ヘッダー">
+    <g>
+      <polyline class="cls-2" points="221.54 722.44 153.95 147.99 159.1 147.99 172.17 129.93 21.63 129.93 34.71 147.99 39.73 147.78 .5 460.63"/>
+      <polygon class="cls-2" points="172.17 40.16 21.63 40.16 34.71 58.21 159.1 58.21 172.17 40.16"/>
+      <rect class="cls-2" x="91.54" y="69.9" width="10.73" height="46"/>
+      <rect class="cls-2" x="45.54" y="69.9" width="10.73" height="46"/>
+      <rect class="cls-2" x="137.54" y="69.9" width="10.73" height="46"/>
+      <path class="cls-2" d="m115.86,294.38v-30.1c0-10.16-8.24-18.4-18.4-18.4h-1.11c-10.16,0-18.4,8.24-18.4,18.4v30.1h37.91Z"/>
+      <path class="cls-2" d="m77.95,423.27h37.91v-30.1c0-10.16-8.24-18.4-18.4-18.4h-1.11c-10.16,0-18.4,8.24-18.4,18.4v30.1Z"/>
+      <path class="cls-1" d="m115.04,40.09L100.4.46s0,0,0,0h-7.77s0,0,0,0l-13.85,39.62s0,.07.01.07h36.26s.02-.03,0-.07Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbc21c;
+      }
+
+      .cls-2 {
+        fill: #273b69;
+        font-family: HeiseiMinStd-W3-90ms-RKSJ-H, 'Heisei Mincho Std';
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g id="contact">
+    <g>
+      <path class="cls-1" d="m.82,35.98l198.02,34.01c.61.1,1.16-.36,1.16-.98V.99c0-.61-.55-1.08-1.16-.98L.82,34.02c-1.1.19-1.1,1.76,0,1.95Z"/>
+      <text class="cls-2" transform="translate(97.02 41.84)"><tspan x="0" y="0">send mail</tspan></text>
+    </g>
+  </g>
+</svg>

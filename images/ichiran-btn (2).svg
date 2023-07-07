@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215.63 73.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbc21c;
+      }
+
+      .cls-2 {
+        fill: #273b69;
+        font-family: HeiseiMinStd-W3-90ms-RKSJ-H, 'Heisei Mincho Std';
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g id="works詳細">
+    <g>
+      <path class="cls-1" d="m1.42,38.33l212.24,34.96c1.03.17,1.97-.63,1.97-1.67V1.7c0-1.05-.94-1.85-1.97-1.67L1.42,34.99c-1.9.31-1.9,3.04,0,3.35Z"/>
+      <text class="cls-2" transform="translate(110.44 42.79)"><tspan x="0" y="0">back all</tspan></text>
+    </g>
+  </g>
+</svg>

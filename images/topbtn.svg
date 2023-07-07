@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #273b69;
+        font-family: SourceHanSansJP-Medium-90ms-RKSJ-H, 'Source Han Sans JP';
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #fbc21c;
+      }
+    </style>
+  </defs>
+  <g id="contact">
+    <g>
+      <circle class="cls-2" cx="35" cy="35" r="35"/>
+      <text class="cls-1" transform="translate(16.9 41.06)"><tspan x="0" y="0">TOP</tspan></text>
+    </g>
+  </g>
+</svg>

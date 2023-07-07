@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .03em;
+      }
+
+      .cls-2 {
+        fill: #fbc21c;
+      }
+
+      .cls-3 {
+        fill: #273b69;
+        font-family: HeiseiMinStd-W3-90ms-RKSJ-H, 'Heisei Mincho Std';
+        font-size: 18px;
+      }
+
+      .cls-4 {
+        letter-spacing: .28em;
+      }
+    </style>
+  </defs>
+  <g id="thanks">
+    <g>
+      <path class="cls-2" d="m.82,35.98l198.02,34.01c.61.1,1.16-.36,1.16-.98V.99c0-.61-.55-1.08-1.16-.98L.82,34.02c-1.1.19-1.1,1.76,0,1.95Z"/>
+      <text class="cls-3" transform="translate(81.5 41.61)"><tspan class="cls-1" x="0" y="0">hom</tspan><tspan class="cls-4" x="33.62" y="0">e</tspan><tspan class="cls-1" x="46.66" y="0">へ戻る</tspan></text>
+    </g>
+  </g>
+</svg>
