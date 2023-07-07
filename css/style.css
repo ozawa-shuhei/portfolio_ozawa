@@ -109,6 +109,7 @@ body {
 }
 
 .subtitle{
+  margin-top: 10px;
   text-align      :center;
   font-size       :18px;
   font-weight     :300;
@@ -1180,7 +1181,8 @@ footer {
 .select-buttons {
   display: flex;
   /* flex-wrap: wrap; */
-  margin: 50px 0;
+  margin: 50px auto;
+  width: 60%;
 }
 
 .select-buttons li {
@@ -1204,15 +1206,6 @@ footer {
   font-size: 16px;
 }
 
-/* ボタンの色と位置 */
-/* .button {
-  font-size: 16px;
-  width: 130px;
-  cursor: pointer;
-  text-align: center;
-  border-radius: 100vh;
-  background-color: #273b69;
-} */
 
 .button a {
   font-size: 16px;
@@ -1223,6 +1216,15 @@ footer {
 /* マウスオーバーの背景色 */
 .button:hover {
   background-color: #fbc21c;
+  color: #273b69;
+}
+
+.button span:hover {
+  color: #273b69;
+}
+
+.button a:hover {
+  color: #273b69;
 }
 
 
