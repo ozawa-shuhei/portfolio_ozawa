@@ -330,12 +330,13 @@ body {
 .pc-nav {
   display: block;
   position: absolute;
-  bottom: 80px;
+  bottom: 120px;
   /* left: 50%;
   transform: translateX(-50%); */
   /* transform    : translate(80%,-50%); */
   display:flex;
   margin: 0 33%;
+
   
   }
 
@@ -510,7 +511,7 @@ body {
 
 .about-wrap {
   background-color: #e6e6e6;
-  clip-path: polygon(0 200px, 100% 0,100% calc(100% - 200px),0 100%);
+  clip-path: polygon(0 120px, 100% 0,100% calc(100% - 120px),0 100%);
   padding: 100px 0 200px 0;  
 }
 
@@ -658,7 +659,7 @@ body {
 
 .works-wrap {
   background-color: #e6e6e6;
-  clip-path: polygon(0 0, 100% 200px, 100% 100%, 0 calc(100% - 200px));
+  clip-path: polygon(0 0, 100% 120px, 100% 100%, 0 calc(100% - 120px));
   padding: 100px 0 200px 0;
 }
  
@@ -911,6 +912,7 @@ footer {
   font-size: 16px;
   font-weight: light;
   font-family: "heisei-mincho-std", serif;
+  background-color: brown;
 }
 
 
@@ -1182,7 +1184,7 @@ footer {
   display: flex;
   /* flex-wrap: wrap; */
   margin: 50px auto;
-  width: 60%;
+  width: 65%;
 }
 
 .select-buttons li {
@@ -2140,8 +2142,12 @@ z-index: 300px;
   margin: 0 auto;
 }
 
-.form_item {
-  width: 80%;
+.form_item input {
+  box-sizing: border-box;
+}
+
+.form_item_textarea {
+  box-sizing: border-box;
 }
 
 form {
