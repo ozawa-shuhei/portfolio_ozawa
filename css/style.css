@@ -51,24 +51,6 @@ img {
   border: none;
 }
 
-/* Source Han Sans JP Light
-font-family: "source-han-sans-japanese", sans-serif;
-font-weight: 200;
-font-style: normal;
-Source Han Sans JP Regular
-font-family: "source-han-sans-japanese", sans-serif;
-font-weight: 400;
-font-style: normal; */
-
-
-/* Heisei Mincho Std W3
-font-family: "heisei-mincho-std", serif;
-font-weight: 300;
-font-style: normal;
-Heisei Mincho Std W5
-font-family: "heisei-mincho-std", serif;
-font-weight: 500;
-font-style: normal; */
 
 
 
@@ -94,40 +76,40 @@ body {
 }
 
 .title {
-  padding-top     :80px;
-  text-align      :center;
-  font-size       :40px;
-  font-weight     :400;
-  font-style      :normal;
-  font-family     :"heisei-mincho-std", serif;
-  letter-spacing  :3px;
+  padding-top :80px;
+  text-align:center;
+  font-size:50px;
+  font-weight:400;
+  font-style:normal;
+  font-family:"heisei-mincho-std", serif;
+  letter-spacing:3px;
 }
 
 .title::first-letter {
-  font-size       :50px;
-  color           :#fbc21c;
+  font-size:65px;
+  color:#fbc21c;
 }
 
 .subtitle{
-  margin-top: 10px;
-  text-align      :center;
-  font-size       :18px;
-  font-weight     :300;
-  font-style      :normal;
-  font-family     :"heisei-mincho-std", serif;
-  letter-spacing  :3px;
+  margin-top:10px;
+  text-align:center;
+  font-size:18px;
+  font-weight:300;
+  font-style:normal;
+  font-family:"heisei-mincho-std", serif;
+  letter-spacing:3px;
 }
 
 .caption{
-  font-size       :30px;
-  font-weight     :500;
-  font-style      :normal;
-  font-family     :"heisei-mincho-std", serif;
+  font-size:35px;
+  font-weight:500;
+  font-style:normal;
+  font-family:"heisei-mincho-std", serif;
 }
 
 .caption span {
-  font-size       :50px;
-  color           :#fbc21c;
+  font-size:70px;
+  color:#fbc21c;
 }
 
 
@@ -157,10 +139,9 @@ body {
     z-index: 999;
     background:#273b69;
     text-align:center;
-    color:#fff;
   }
   
-  /* Loading画像中央配置　*/
+  /* Loading画像中央配置*/
   #splash_logo {
     position: absolute;
     top: 50%;
@@ -192,11 +173,6 @@ body {
     transform: translateY(0);
     }
   }
-
-
-
-
-
 
 
 
@@ -236,10 +212,10 @@ body {
   }
 
 .mv1 img {
-  position      : absolute;
-  top           : 30px;
-  left          : 30px;
-  width         : 180px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 180px;
 }
 
 .mv1_sp img {
@@ -248,14 +224,12 @@ body {
 
 /* 光の部分 */
 .mv2 {
-  margin-top    : auto;
-  margin-left   : 180px;
-  /* width         : 0;
-  height        : 0; */
-  border-style  : solid;
-  border-width  : 315px 100vw 315px 0;
-  border-color  :  transparent #e6e6e6 transparent transparent;
-  background    : linear-gradient(45deg, #ffffff, #f2f2f2, #f2f2f2);
+  margin-top: auto;
+  margin-left: 180px;
+  border-style: solid;
+  border-width: 315px 100vw 315px 0;
+  border-color:  transparent #e6e6e6 transparent transparent;
+  background: linear-gradient(45deg, #ffffff, #f2f2f2, #f2f2f2);
 }
 
 .hiden {
@@ -268,28 +242,30 @@ body {
 
 
 
-.mv2 p {      /* ファーストコンセプト */
-  position     : absolute;
-  display      : inline-block;
-  top          : 45%;
-  left         : 60%;
-  color        : #273b69;
-  transform    : translate(-20%,-50%);
-  font-family  : "heisei-mincho-std", serif;
-  font-size    : 40px;
-  z-index      : 10;
-  letter-spacing   : 10px;
-  text-shadow      : 3px 3px 0 #d4d3d3;
-  line-height  : 1.5 ;
+.mv2 h1 {      /* ファーストコンセプト */
+  position: absolute;
+  display: inline-block;
+  top: 45%;
+  left: 60%;
+  color: #273b69;
+  transform: translate(-20%,-50%);
+  font-family: "heisei-mincho-std", serif;
+  font-weight: 300;
+  font-size: 40px;
+  z-index: 10;
+  letter-spacing : 10px;
+  text-shadow : 3px 3px 0 #d4d3d3;
+  line-height: 1.5 ;
 } 
 
 
 
 
 .mv2 span {      /* 前面の文字エリア */
-  font-family  :  "heisei-mincho-std", serif;
-  font-size    : 50px;
-  z-index      : 10;
+  font-family:  "heisei-mincho-std", serif;
+  font-size: 50px;
+  font-weight: 400;
+  z-index: 10;
   -webkit-transition: all 1.0s ease;
   -moz-transition: all 1.0s ease;
   -o-transition: all 1.0s ease;
@@ -306,18 +282,14 @@ body {
 
 /* 灯台 */
 .mv3 img {
-  position     : absolute;
-  top          : 240px;
-  left         : 0px;
-  width        : 180px;
+  position: absolute;
+  top: 240px;
+  left: 0px;
+  width: 180px;
 }
 
 /* スマホ用灯台 SP版で表示 */
 .mv3_sp img {
- /* position     : absolute;
- top          : 240px;
- left         : 0px;
- width        : 180px; */
  display: none;
 }
 
@@ -331,28 +303,27 @@ body {
   display: block;
   position: absolute;
   bottom: 120px;
-  /* left: 50%;
-  transform: translateX(-50%); */
-  /* transform    : translate(80%,-50%); */
-  display:flex;
-  margin: 0 33%;
-
-  
+  left: 50%;
+  transform: translateX(-49%);
   }
 
   .pc-nav ul {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     
   }
 
   .pc-nav ul li {
-    width: 130px;
     color: #e6e6e6;
     font-size: 16px;
     font-weight: light;
     font-family: "heisei-mincho-std", serif;
-    margin: 0 auto;
+    margin-right: 70px;
+  }
+
+  .pc-nav ul li:last-child {
+    margin-right: 0;
   }
 
 
@@ -443,30 +414,31 @@ body {
 .concept_contents {
   padding-top: 120px;
   display: flex;
-  
 }
 
-/* 画像サイズ・位置 */
-.concept_contents img {
+.concept-logo {
   width: 40%;
 }
 
-/* テキスト位置 */
-.concept_contents ul {
+
+.concept-main {
   width: 40%;
   padding-left: 150px;
+  display: block;
 }
 
+
+
 /* テキスト「想いを～」位置 */
-.concept_contents h3 {
+.concept-main h3 {
   text-align  : center;
-  font-size   : 20px;
+  font-size   : 18px;
   font-family: "heisei-mincho-std", serif;
   font-weight : medium;
 }
 
 /* テキスト部分 */
-.concept_contents p {
+.concept-main p {
   line-height: 1.8;
   margin: 1em 0px;
   text-align: left;
@@ -481,10 +453,6 @@ body {
   margin-right: 0;
   margin-left: auto;
   position: relative;
-  /* display: block;
-  margin-top: 50px;
-  margin-left: auto;
-  width: 200px; */
 }
 
 
@@ -673,6 +641,7 @@ body {
   height: auto;
   transform: scale(.8);
   width: 100%;
+  transition: 0.3s;
 }
 
 .works_slider .slick-center img {
@@ -685,6 +654,20 @@ body {
   width: 100%;
   padding-top: 50px;
 }
+
+.slider__item {
+  opacity: 0.34;
+  transition: opacity 0.4s;
+}
+
+
+.slick-slide.slick-current .slider__item,
+.slick-slide.is-active-next .slider__item {
+  opacity: 1;
+  transition: .4s;
+}
+
+
 
 
 
@@ -713,7 +696,6 @@ body {
   right: 30px;
 }
 .slick-next::after {
-  /* right: 4px; */
   transform: rotate(45deg);
 }
 
@@ -765,14 +747,6 @@ body {
   font-weight : medium;
 }
 
-/* コンタクトのボタン位置 */
-/* .contact_btn img {
-  padding: 100px;
-  width: 200px;
-  display: block;
-  margin: auto;
-  filter: drop-shadow(5px 5px 5px #aaa);
-} */
 
 
 .contact_btn {
@@ -820,9 +794,7 @@ footer {
 
 .footer_wrap {
   width: auto;
-  /* width        : 100%; */
-  /* background   : #273b69; */
-  background: linear-gradient( #e6e6e6,15%, #273b69);
+  background: linear-gradient( #e6e6e6,33%, #273b69);
   align-items: center;
   display: block;
   padding: 100px 5px;
@@ -837,16 +809,14 @@ footer {
 
 .footer_pc_nav ul {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin: 0 auto;
   width: 50%;
 }
 
 .footer_pc_nav ul li {
   text-align: center;
-  margin: 0 auto;
   padding: 50px 0;
-  width: 130px;
   color: #e6e6e6;
   font-size: 16px;
   font-weight: light;
@@ -867,13 +837,48 @@ footer {
 
 
 /* トップボタン */ 
-.toTOP  {
-  position  : fixed;
+.page-top {
+	position  : fixed;
   bottom    : 50px;
   right     : 10px;
   width     : 70px;
+	z-index: 2;
+    /*はじめは非表示*/
+	opacity: 0;
+	transform: translateY(100px);
 }
 
+/*上に上がる動き*/
+
+.page-top.UpMove{
+	animation: UpAnime 0.5s forwards;
+}
+@keyframes UpAnime{
+  from {
+    opacity: 0;
+	transform: translateY(150px);
+  }
+  to {
+    opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+/*下に下がる動き*/
+
+.page-top.DownMove{
+	animation: DownAnime 0.8s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(150px);
+  }
+}
 
 
 
@@ -895,24 +900,20 @@ footer {
 
 .pc-nav2 {
   text-align: right;
-  /* padding: 30px 0 30px 100px; */
-  /* padding-left: 500px; */
   padding-right: 30px;
 }
 
 .pc-nav2 ul {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .pc-nav2 ul li {
-  width: 120px;
+  margin-left: 50px;
   color: #273b69;
   font-size: 16px;
   font-weight: light;
   font-family: "heisei-mincho-std", serif;
-  background-color: brown;
 }
 
 
@@ -925,10 +926,11 @@ footer {
     padding: 0 10px;
 }
 
+  
+
 .concept_text{
   display: flex;
   padding-top: 200px;
-  width: 500px;
   align-items: center;
 }
 
@@ -937,8 +939,7 @@ footer {
   line-height: 2;
 }
 
-.concept_text h3  {
-  width: 500px;
+.concept_text h2  {
   font-family: "heisei-mincho-std", serif;
 }
 
@@ -947,17 +948,17 @@ footer {
 }
 
 .number1 img{
-  width:60%; 
+  width: 30%; 
   padding: 250px 0 0 100px;
 }
 
 .number2 img{
-  width: 50%;
-  padding: 150px 100px 0 100px;
+  width: 35%;
+  padding: 150px 100px 0 50px;
 }
 
 .number3 img{
-  width: 50%;
+  width: 25%;
   padding-top: 100px;
   padding-left: 100px;
 }
@@ -978,7 +979,9 @@ footer {
 
 /*   ＝＝＝＝＝＝＝＝＝＝アバウトページ （詳細ページ） ＝＝＝＝＝＝＝＝＝＝ */
 
-
+.about-img {
+  display: block;
+}
 
 /* 全体のマージン */
 .about-page {
@@ -992,17 +995,17 @@ footer {
 }
 
 .sea-img img {
-  width: 47%;
+  width: 70%;
 }
 
 .fire-img img {
-  width: 270px;
-  margin-left: 20%;
+  margin: 30px 10px 0 70px;
+  width: 80%;
 }
 
 .about01,
 .about02,
-.about03 h3 {
+.about03 h2 {
   border-bottom: solid none;
 }
 
@@ -1016,13 +1019,11 @@ footer {
 /* liタグの点消す */
 .about-text1 li {
   list-style: none;
-  /* width: 440px; */
   width: auto;
 }
 
 .about-text1-li2 {
   padding-left: 120px;
-  /* width: 500px; */
 }
 
 
@@ -1039,19 +1040,6 @@ footer {
   line-height: 1.8; 
 }
 
-.sea-img {
-  /* width: 270px; */
-  width: auto;
-}
-
-/* 消防士の画像少しずらす */
-.fire-img {
-  /* width: 350px; */
-  width: auto;
-  position: relative;
-  /* left:100px; */
-  top: 30px;
-}
 
 
 .about-text2 {
@@ -1061,11 +1049,11 @@ footer {
   text-align: center;
 }
 
-.about02 h3 {
+.about02 h2 {
   margin: 150px 0 50px 0;
 }
 
-.about-text2 h4 {
+.about-text2 h3 {
   margin: 30px 0 10px 0;
 }
 
@@ -1077,7 +1065,6 @@ footer {
 .about-text2 p {
   line-height: 1.8;
   text-align: left;
-  /* width: 300px; */
   width: auto;
   padding: 0 20px;
   align-items: center;
@@ -1093,13 +1080,12 @@ footer {
   padding-left: 30px;
 }
   
-.about03 h3 {
+.about03 h2 {
   margin: 230px 0 30px 0;
 }
 
 .about03 p {
   padding-bottom: 150px;
-  /* width: 700px; */
   letter-spacing: 0.1em;
   line-height: 1.8;
 }
@@ -1140,13 +1126,19 @@ footer {
   margin: auto;
 }
 
-.works-flex-box h4 {
-  margin: 10px 0 5px 0;
+.works-flex-box h3 {
+  margin: 15px 0 10px 0;
+  font-weight: 200;
+}
+
+.works-flex-box p {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* ひとつひとつの幅指定 */
 .works-all li {
-  width: 450px; 
+  width: 400px; 
   padding:0 10px 100px 10px;
   padding-bottom: 120px;
   margin: auto;
@@ -1156,29 +1148,7 @@ footer {
   width: 100%;
 }
 
-/* 奇数の要素のパディング指定 */
-/* .works-all li:nth-child(odd) {
-  padding:  0 100px 100px 0;
-} */
 
-/* 偶数の要素のパディング指定 */
-/* .works-all li:nth-child(even) {
-  padding-bottom: 100px ;
-} */
-
-
-
-
-/* セレクトボタン */
-/* .select-buttons {
-  margin: 100px 0 ;
-	display: flex;
-	justify-content: center;
-	
-	> *:nth-child(n+2) {
-		margin-left: 50px;
-	}
-} */
 
 .select-buttons {
   display: flex;
@@ -1203,11 +1173,10 @@ footer {
 }
 
 /* ボタンの文字の色 */
-.button span {
+.button {
   color: #e6e6e6;
   font-size: 16px;
 }
-
 
 .button a {
   font-size: 16px;
@@ -1217,18 +1186,9 @@ footer {
 
 /* マウスオーバーの背景色 */
 .button:hover {
+  color: #273b69;
   background-color: #fbc21c;
-  color: #273b69;
 }
-
-.button span:hover {
-  color: #273b69;
-}
-
-.button a:hover {
-  color: #273b69;
-}
-
 
 .back_btn {
   display: block;
@@ -1281,7 +1241,7 @@ footer {
 
 
 
-.detail h3 {
+.detail h2 {
   font-size: 20px;
   font-weight: medium;
   font-family: "heisei-mincho-std", serif;
@@ -1665,18 +1625,28 @@ footer {
     display: none;
   }
 
-  .mv2 {
+  
+
+  .mv2 h1 {
     font-size: 30px;
   }
+
+  .mv2 span {
+    font-size: 40px;
+  }
+
+  /* .select-buttons {
+    width: 50%;
+  } */
  
-  .select-buttons .button {
+  /* .select-buttons .button {
     margin: 10px auto;
     flex-wrap: wrap;
-  }
+  } */
   
-  .select-buttons li {
+  /* .select-buttons li {
     width: 50%;
-  }
+  } */
   
   .button a {
     font-size: 14px;
@@ -1901,6 +1871,14 @@ z-index: 300px;
 
 @media screen and (max-width: 767px) {
 
+  .mv2 h1 {
+    font-size: 25px;
+  }
+
+  .mv2 span {
+    font-size: 35px;
+  }
+
   .title {
     padding-top: 100px;
   }
@@ -1937,12 +1915,13 @@ z-index: 300px;
   border-color:#f2f2f2 transparent transparent  transparent;
 }
 
-.text-sp {
+.mv2_sp h1 {
     z-index: 20;
     position: absolute;
     display: block;
     writing-mode: vertical-rl;
     font-size: 20px;
+    font-weight: 300;
     font-family: "heisei-mincho-std", serif;
     letter-spacing: 10px;
     line-height: 1.5;
@@ -1958,6 +1937,7 @@ z-index: 300px;
  
 .mv2_sp span {     
   font-family: "heisei-mincho-std", serif;
+  font-weight: 400;
   font-size    : 28px;
   z-index      : 10;
   -webkit-transition: all 1.0s ease;
@@ -2023,21 +2003,22 @@ z-index: 300px;
     margin: auto;
 } */
 
-.concept_contents h3 {
+.concept-main h3 {
   font-size: 18px;
   padding-top: 100px;
 }
 
 
-.concept_contents ul {
+.concept-main {
  width: auto;
  padding: 10px;
  margin: auto;
 }
 
 
-.concept_contents img {
+.concept-logo {
   width: 250px;
+  margin: 0 auto;
 }
 
 .concept_btn {
@@ -2203,7 +2184,7 @@ form {
 }
 
 
-.concept_text h3 {
+.concept_text h2 {
   width: auto;
 }
 
@@ -2384,12 +2365,12 @@ form {
 
 .select-buttons {
   flex-wrap: wrap;
+  width: 75%;
 }
 
 .select-buttons .button {
   margin: 10px auto;
-  display: block;
-  flex-wrap: wrap;
+  width: 120px;
 }
 
 .select-buttons li {

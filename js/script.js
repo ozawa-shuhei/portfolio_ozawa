@@ -1,13 +1,8 @@
-  
-  
-  //logoの表示
+//logoの表示
   $(window).on('load',function(){
     $("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
     $("#splash_logo").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
     });
-
-
-
 
 
     // ハンバーガーメニュー
@@ -23,6 +18,131 @@
         $("#sp-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスを除去
         $(".circle-bg").removeClass('circleactive');//丸背景のcircleactiveクラスを除去
         });
+
+
+
+    $(function () {
+        // WORKSのスライダー
+        $(function () {
+            $('.works_slider').slick({
+                autoplay: true,
+                dots: true,
+                centerMode: true,
+                centerPadding: '0px',
+                // autoplaySpeed: 2000,
+                arrows: true,
+                adaptiveHeight: true,
+                // slidesToScroll: 1,
+                slidesToShow: 3,
+                responsive: [
+                    {
+                        breakpoint: 767, // 399px以下のサイズに適用
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+
+            });
+        });
+
+    });
+
+//     const $slider = $("#js-slider");
+
+// // 左右の透過の2周目ががたつく対応
+// $slider.on("beforeChange", (event, slick, currentSlide, nextSlide) => {
+//   $slider.find(".slick-slide").each((index, el) => {
+//     const $this = $(el),
+//       slickindex = $this.attr("data-slick-index");
+//     if (nextSlide == slick.slideCount - 1 && currentSlide == 0) {
+//       // 現在のスライドが最初のスライドでそこから最後のスライドに戻る場合
+//       if (slickindex == "-1") {
+//         // 最後のスライドに対してクラスを付与
+//         $this.addClass("is-active-next");
+//       } else {
+//         // それ以外は削除
+//         $this.removeClass("is-active-next");
+//       }
+//     } else if (nextSlide == 0) {
+//       // 次のスライドが最初のスライドの場合
+//       if (slickindex == slick.slideCount) {
+//         // 最初のスライドに対してクラスを付与
+//         $this.addClass("is-active-next");
+//       } else {
+//         // それ以外は削除
+//         $this.removeClass("is-active-next");
+//       }
+//     } else {
+//       // それ以外は削除
+//       $this.removeClass("is-active-next");
+//     }
+//   });
+// });
+
+
+// slick 2週目のカクつき対応
+const $slider = $("#js-slider");
+
+$slider.on("beforeChange", (event, slick, currentSlide, nextSlide) => {
+	$slider.find(".slick_img").each((index, el) => {
+		const $this = $(el),
+		slickindex = $this.attr("data-slick-index");
+		if (nextSlide == slick.slideCount - 1 && currentSlide == 0) {
+			if (slickindex == "-1") {
+				$this.addClass("is-active-next");
+			} else {
+				$this.removeClass("is-active-next");
+			}
+		} else if (nextSlide == 0) {
+			if (slickindex == slick.slideCount) {
+				$this.addClass("is-active-next");
+			} else {
+				$this.removeClass("is-active-next");
+			}
+		} else {
+			$this.removeClass("is-active-next");
+		}
+	});
+});
+
+
+
+
+
+
+// トップ
+//スクロールした際の動きを関数でまとめる
+function PageTopAnime() {
+	var scroll = $(window).scrollTop();
+	if (scroll >= 700){//上から200pxスクロールしたら
+		$('.page-top').removeClass('DownMove');//#page-topについているDownMoveというクラス名を除く
+		$('.page-top').addClass('UpMove');//#page-topについているUpMoveというクラス名を付与
+	}else{
+		if($('.page-top').hasClass('UpMove')){//すでに#page-topにUpMoveというクラス名がついていたら
+			$('.page-top').removeClass('UpMove');//UpMoveというクラス名を除き
+			$('.page-top').addClass('DownMove');//DownMoveというクラス名を#page-topに付与
+		}
+	}
+}
+
+// 画面をスクロールをしたら動かしたい場合の記述
+$(window).scroll(function () {
+	PageTopAnime();/* スクロールした際の動きの関数を呼ぶ*/
+});
+
+// ページが読み込まれたらすぐに動かしたい場合の記述
+$(window).on('load', function () {
+	PageTopAnime();/* スクロールした際の動きの関数を呼ぶ*/
+});
+
+// #page-topをクリックした際の設定
+$('.page-top a').click(function () {
+    $('body,html').animate({
+        scrollTop: 0//ページトップまでスクロール
+    }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+    return false;//リンク自体の無効化
+});
 
 
 
@@ -130,34 +250,3 @@ for (i = yAxis; i <= canvas.width + 10; i += 10) {
 }
 
 init();
-    
-
-
-    $(function () {
-        // WORKSのスライダー
-        $(function () {
-            $('.works_slider').slick({
-                autoplay: true,
-                dots: true,
-                centerMode: true,
-                centerPadding: '0px',
-                // autoplaySpeed: 2000,
-                arrows: true,
-                adaptiveHeight: true,
-                // slidesToScroll: 1,
-                slidesToShow: 3,
-                responsive: [
-                    {
-                        breakpoint: 767, // 399px以下のサイズに適用
-                        settings: {
-                            slidesToShow: 1,
-                        },
-                    },
-                ],
-
-            });
-        });
-
-    });
-
-    
