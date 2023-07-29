@@ -816,7 +816,7 @@ footer {
 
 .footer_pc_nav ul li {
   text-align: center;
-  padding: 50px 0;
+  padding: 70px 0;
   color: #e6e6e6;
   font-size: 16px;
   font-weight: light;
@@ -839,8 +839,8 @@ footer {
 /* トップボタン */ 
 .page-top {
 	position  : fixed;
-  bottom    : 50px;
-  right     : 10px;
+  bottom    : 15px;
+  right     : 15px;
   width     : 70px;
 	z-index: 2;
     /*はじめは非表示*/
@@ -1197,6 +1197,14 @@ footer {
   width: 200px;
 }
 
+.back_btn2 {
+  display: block;
+  margin: auto;
+  padding: 100px 0 100px 0;
+  width: 200px;
+}
+
+
 .back_btn img {
   filter: drop-shadow(5px 5px 5px #aaa);
 }
@@ -1406,77 +1414,6 @@ footer {
 }
 
 
-/* .form {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 720px;
-}
-.form_item {
-  padding-bottom: 40px;
-  width: 100%;
-}
-
-.form_item_label {
-  width: 100%;
-  max-width: 248px;
-  letter-spacing: 0.05em;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-.form_item_label.ismsg {
-  margin-top: 8px;
-  margin-bottom: auto;
-}
-
-.form_item_label_required {
-  border-radius: 6px;
-  margin-right: 8px;
-  padding: 5px 0;
-  width: 48px;
-  display: inline-block;
-  text-align: center;
-  background: #998675;
-  color: #fff;
-  font-size: 14px;
-}
-
-.form_item_input {
-  border: 1px solid #998675;
-  border-radius: 6px;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 45px;
-  flex: 1;
-  width: 100%;
-  background: #eaedf2;
-  font-size: 18px;
-}
-
-.form_item_textarea {
-  border: 1px solid #998675;
-  border-radius: 6px;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 160px;
-  flex: 1;
-  width: 100%;
-  background: #eaedf2;
-  font-size: 16px;
-}
-
-.form_btn {
-  border-radius: 8px;
-  margin: 0 auto;
-  padding: 5px 0;
-  width: 170px;
-  display: block;
-  letter-spacing: 0.1rem;
-  background: #998675;
-  color: #fff;
-  font-size: 18px;
-  border: none;
-} */
-
 
 
 
@@ -1543,18 +1480,6 @@ footer {
   font-size: 16px;
 }
 
-/* .form_btn {
-  border-radius: 8px;
-  margin: 0 auto;
-  padding: 5px 0;
-  width: 170px;
-  display: block;
-  letter-spacing: 0.1rem;
-  background: #e6e6e6;
-  color: #e6e6e6;
-  font-size: 18px;
-  border: none;
-} */
 
 .sp_only {
   display: none;
@@ -1635,18 +1560,6 @@ footer {
     font-size: 40px;
   }
 
-  /* .select-buttons {
-    width: 50%;
-  } */
- 
-  /* .select-buttons .button {
-    margin: 10px auto;
-    flex-wrap: wrap;
-  } */
-  
-  /* .select-buttons li {
-    width: 50%;
-  } */
   
   .button a {
     font-size: 14px;
@@ -1665,8 +1578,6 @@ footer {
   cursor: pointer;
     width: 50px;
     height:50px;
-    /* background:#fbc21c;
-    border-radius: 100vh; */
   }
   
   /*×に変化*/	
@@ -1710,7 +1621,6 @@ footer {
       left: 18px;
       transform: translateY(6px) rotate(-45deg);
       width: 30%;
-      /* color: #e6e6e6; */
       background-color: #fff;
   }
   
@@ -1743,36 +1653,7 @@ footer {
     transition: all .5s;
 }
 
-/*hoverした際の背景色の設定*/
-/* .sp-btn:hover{
-	background:#fbc21c;	
-} */
 
-/*波形を2つ設定*/
-.sp-btn::after,
-.btnripple2::before {
-    content: '';
-    position: absolute;
-    top: -3px;
-    right: 1px;
-    /* border: 1px solid #fbc21c; */
-    width: 45px;
-    height: 45px;
-    border-radius: 100vh;
-    opacity: 1;
-    animation:1s circleanime linear infinite;
-} 
-
-/*波形のアニメーション*/
- @keyframes circleanime{
-	0%{
-	  transform: scale(0.68);
-	}
-	100%{
-		transform: scale(1.2);
-		opacity: 0;
-	}
-}
 
 
 
@@ -1997,11 +1878,6 @@ z-index: 300px;
   text-align: center;
 }
 
-/* .concept_page {
-  width: auto;
-    padding: 10px;
-    margin: auto;
-} */
 
 .concept-main h3 {
   font-size: 18px;
@@ -2221,9 +2097,7 @@ form {
 }
 
 .concept_contents p {
-  /* line-height: 1.8; */
   margin: 1em 0px 5em 0px;
-  /* text-align: left; */
 }
 
 .concept_text p {
@@ -2247,14 +2121,6 @@ form {
   display: block;
 }
 
-/* .sea-img img {
-  width: auto;
-}
-
-.fire-img img {
-  width: auto;
-} */
-
 .about-text1 {
   display: block;
 }
@@ -2271,7 +2137,6 @@ form {
 }
 
 .caption {
-  /* width: 315px; */
   margin: 0px;
 }
 
@@ -2291,7 +2156,6 @@ form {
 .about-text3 p {
   display: block;
   margin: 0 auto;
-  /* width: 315px; */
   width: auto;
 }
 
