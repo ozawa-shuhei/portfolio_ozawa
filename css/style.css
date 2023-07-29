@@ -21,7 +21,6 @@ dd {
   padding: 0;
   line-height: 1;
   color: #273b69;
-  /* font-family: "源ノ角ゴシック JP", "平成明朝 Std"; */
   font-family: "source-han-sans-japanese", sans-serif,"heisei-mincho-std", serif;
   font-feature-settings: "palt";
   font-weight: light;
@@ -29,9 +28,7 @@ dd {
 }
 
 a {
-  /*下線を消す*/
   text-decoration: none;
-  /*色を消す*/
   color: inherit;
   transition: 0.3s;
 }
@@ -41,7 +38,6 @@ a:hover {
 }
 
 ul {
-  /*左の「・」を消す*/
   list-style: none;
 }
 
@@ -367,7 +363,6 @@ body {
   width: 2px;
   height: 20px;
   background: #f2f2f2;
-  /*線の動き1.4秒かけて動く。永遠にループ*/
   animation: pathmove 1.4s ease-in-out infinite;
   opacity: 0;
 }
@@ -588,7 +583,6 @@ body {
 }
 
 .service-box2 {
-  /* width: 400px; */
   width: 50%;
 }
 
@@ -843,7 +837,6 @@ footer {
   right     : 15px;
   width     : 70px;
 	z-index: 2;
-    /*はじめは非表示*/
 	opacity: 0;
 	transform: translateY(100px);
 }
@@ -1141,7 +1134,7 @@ footer {
   width: 400px; 
   padding:0 10px 100px 10px;
   padding-bottom: 120px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .works-all li img {
@@ -1150,9 +1143,9 @@ footer {
 
 
 
+
 .select-buttons {
   display: flex;
-  /* flex-wrap: wrap; */
   margin: 50px auto;
   width: 65%;
 }
@@ -1241,7 +1234,6 @@ footer {
 .works-mv {
   display: block;
   margin: 0 auto;
-  /* width: 800px; */
   padding: 100px 0;
 }
 
@@ -1254,7 +1246,6 @@ footer {
   font-weight: medium;
   font-family: "heisei-mincho-std", serif;
   border-bottom: 1px solid #273b69;
-  /* width: 800px; */
   margin: auto;
   padding-bottom: 3px;
 }
@@ -1263,7 +1254,6 @@ footer {
 .detail-text01 dl {
   display: flex;
   flex-wrap: wrap;
-  /* width: 800px; */
   margin: auto;
 }
 
@@ -1290,7 +1280,6 @@ footer {
 
 .detail-text02 {
   padding-top: 100px;
-  /* width: 800px; */
   margin: auto;
   
 }
@@ -1342,10 +1331,6 @@ footer {
   padding: 0 10px;
 }
 
-/* .contact-page h2 {
-  text-align: center;
-  padding-top: 50px;
-} */
 
 
 /* 「CONTACT」説明文言位置 */
@@ -1360,11 +1345,6 @@ footer {
   line-height: 2;
 }
 
-/* 入力欄の全体位置 */  
-/* .Form {
-   display: block;
-  margin: auto;
-} */
 
 .Form-Item {
   justify-content: flex-start;
@@ -1380,15 +1360,12 @@ footer {
 /* 文字のサイズ、位置 */
 .Form-Item>p {
   font-size: 16px;
-  /* margin-right: 100px; */
   padding: 20px 0 5px 0;
 
 }
 
 /* 名前部分横並び */
 .contact-flex {
-  /* display: flex;
-  margin: 0 auto; */
   text-align: center;
 }
 
@@ -1570,12 +1547,12 @@ footer {
 
 
 .sp-btn{
-  display: block;
-  position:fixed;
-  top:10px;
-  right: 10px;
-  z-index: 9999;/*ボタンを最前面に*/
-  cursor: pointer;
+    display: block;
+    position:fixed;
+    top:10px;
+    right: 10px;
+    z-index: 9999;
+    cursor: pointer;
     width: 50px;
     height:50px;
   }
@@ -1645,10 +1622,9 @@ footer {
   }
 
 
-   /* 無限に波紋が広がる  */
+
 
 .sp-btn {
-    
     /*アニメーションの設定*/
     transition: all .5s;
 }
@@ -1967,7 +1943,6 @@ z-index: 300px;
 
 .service-box1,
 .service-box2 {
-  /* width: 315px; */
   width: auto;
   padding: 10px;
   margin: 0 auto;
@@ -2265,6 +2240,10 @@ form {
 
 .thanks-page{
   max-width: 315px;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 }
